@@ -7,7 +7,7 @@ console.log("news ya working")
 let newsaccordion = document.getElementById('newsaccordion');
 
 const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=6e8a3150a2c94a558d878fd651af6965`, true);
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=ea5e509bc15a42ee8412c66194bdb50a`, true);
 
 xhr.onload = function () {
     if (this.status === 200) {
